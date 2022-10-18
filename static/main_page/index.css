@@ -1,0 +1,139 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Roboto+Condensed:wght@700&family=Roboto+Slab&family=Ubuntu+Mono:ital,wght@1,700&display=swap');
+
+
+html{
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background-image: url("https://python-mongo.xyz/static/background.jpg");
+	position: relative;
+	width: 100%;
+	height: 100%;
+
+}
+
+
+#up{
+  height: 7%;
+  background-color: #008945;
+}
+
+#text-1{
+	color: black;
+	font-size: 100%;
+	margin-left: 4%;
+	display: inline-block;
+  vertical-align: middle;
+  font-family: 'Roboto Condensed', sans-serif;
+	transition: 0.5s;
+	opacity: 0.7;
+	text-decoration: none;
+
+}
+
+#text-1:hover{
+	border-bottom: 5px solid #D1E2C4;
+	opacity: 1;
+	color: ghostwhite;
+}
+
+#flag{
+	height: 40%;
+	wigth: 50%;
+	margin-left: 1%;
+	display: inline-block;
+  vertical-align: middle;
+  border: 1px solid seagreen;
+	outline-offset: 5px;
+	padding: 5px;
+	transition: 0.5s;
+
+}
+
+#flag:hover{
+	border: 4px solid #D1E2C4;
+}
+
+
+
+
+#text-2{
+	color: #024F2D;
+	margin-left: 8%;
+	margin-top: 4%;
+	display: inline-block;
+  font-family: 'Comfortaa', cursive;
+
+
+}
+
+
+
+#text-3{
+	color: #024F2D;
+	margin-left: 8%;
+	display: inline-block;
+  font-family: 'Comfortaa', cursive;
+  opacity: 0.8;
+
+
+}
+
+.text-4{
+	color: ghostwhite;
+  font-family: 'Roboto Condensed', sans-serif;
+
+
+}
+
+
+.container{
+	margin: auto;
+	margin-top: 5%;
+	width: 90%;
+	height: 15%;
+	padding: 10px;
+	background-color: #024F2D;
+	border-radius: 10px;
+	}
+
+
+.img-container{
+	height: 100%;
+	aspect-ratio : 1 / 1;
+	display: inline-block;
+  vertical-align: middle;
+}
+.img{
+	height: 90%;
+	width: 90%;
+	border-radius: 20px;
+}
+
+
+.container-text{
+    font-family: 'Comfortaa', cursive;
+   display: inline-block;
+   vertical-align: middle;
+    margin-top: 0%;
+    margin-left: 4%;
+    margin:10px;
+    width: 40%;
+    font-size: 80%;
+}
+
+.container-text p{
+	font-family: 'Ubuntu Mono', monospace;
+	color: whitesmoke;
+}
+
+.link{
+	text-decoration-color: #D1E2C4;
+	color: whitesmoke;
+	text-decoration-style: wavy;
+	color: #EBEBE8;
+
+}
