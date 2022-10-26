@@ -1,0 +1,431 @@
+.v-application .primary {
+  background-color: #2b9253f3 !important;
+  border-color: #2196f3 !important;
+  }
+  
+.theme--dark.v-sheet {
+  background-color: #424242;
+  border-color: #424242;
+  color: #fff
+}
+
+.v-sheet {
+  border-radius: 4px
+}
+
+.v-sheet--tile {
+  border-radius: 0
+}
+
+.v-app-bar.v-app-bar--fixed {
+  position: fixed;
+  top: 0;
+  z-index: 5
+}
+
+
+.v-toolbar {
+  contain: layout;
+  display: block;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  max-width: 100%;
+  -webkit-transition: transform .2s cubic-bezier(.4, 0, .2, 1), background-color .2s cubic-bezier(.4, 0, .2, 1), left .2s cubic-bezier(.4, 0, .2, 1), right .2s cubic-bezier(.4, 0, .2, 1), max-width .25s cubic-bezier(.4, 0, .2, 1), width .25s cubic-bezier(.4, 0, .2, 1), -webkit-box-shadow .28s cubic-bezier(.4, 0, .2, 1);
+  transition: transform .2s cubic-bezier(.4, 0, .2, 1), background-color .2s cubic-bezier(.4, 0, .2, 1), left .2s cubic-bezier(.4, 0, .2, 1), right .2s cubic-bezier(.4, 0, .2, 1), max-width .25s cubic-bezier(.4, 0, .2, 1), width .25s cubic-bezier(.4, 0, .2, 1), -webkit-box-shadow .28s cubic-bezier(.4, 0, .2, 1);
+  transition: transform .2s cubic-bezier(.4, 0, .2, 1), background-color .2s cubic-bezier(.4, 0, .2, 1), left .2s cubic-bezier(.4, 0, .2, 1), right .2s cubic-bezier(.4, 0, .2, 1), box-shadow .28s cubic-bezier(.4, 0, .2, 1), max-width .25s cubic-bezier(.4, 0, .2, 1), width .25s cubic-bezier(.4, 0, .2, 1);
+  transition: transform .2s cubic-bezier(.4, 0, .2, 1), background-color .2s cubic-bezier(.4, 0, .2, 1), left .2s cubic-bezier(.4, 0, .2, 1), right .2s cubic-bezier(.4, 0, .2, 1), box-shadow .28s cubic-bezier(.4, 0, .2, 1), max-width .25s cubic-bezier(.4, 0, .2, 1), width .25s cubic-bezier(.4, 0, .2, 1), -webkit-box-shadow .28s cubic-bezier(.4, 0, .2, 1);
+  -webkit-box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12);
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12)
+  }
+.v-toolbar__content {
+  padding: 4px 16px
+}
+
+.v-toolbar__content {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  z-index: 0
+}
+
+
+.v-application {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex
+}
+
+.v-application--wrap {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 100%;
+  position: relative
+}
+
+@-moz-document url-prefix() {
+  @media print {
+
+    .v-application,
+    .v-application--wrap {
+      display: block
+    }
+  }
+}
+
+@-moz-document url-prefix() {}
+
+.v-tooltip__content {
+  background: rgba(97, 97, 97, .9);
+  color: #fff;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 22px;
+  display: inline-block;
+  padding: 5px 16px;
+  position: absolute;
+  text-transform: none;
+  width: auto;
+  opacity: 1;
+  pointer-events: none
+}
+
+*,
+:after,
+:before {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit
+}
+
+:after,
+:before {
+  text-decoration: inherit;
+  vertical-align: inherit
+}
+
+* {
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0
+}
+
+header {
+  display: block
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit
+}
+
+@media screen {
+  [hidden~=screen]:not(:active):not(:focus):not(:target) {
+    position: absolute !important;
+    clip: rect(0 0 0 0) !important
+  }
+}
+
+html {
+  font-size: 16px;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.v-application {
+  font-family: Roboto, sans-serif;
+  line-height: 1.5
+}
+
+.v-application ::-ms-clear,
+.v-application ::-ms-reveal {
+  display: none
+}
+
+body {
+  margin: 0px;
+  font-family: 'Source Code Pro', sans-serif;
+  font-weight: 200;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#gradient {
+  box-sizing: 100%;
+  background-repeat: no-repeat;
+  overflow: scroll;
+}
+
+.preloader {
+  text-align: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background-color: #212121;
+  z-index: 1001;
+  color: #eee;
+}
+
+.spinner {
+  position: relative;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.spinner::before,
+.spinner:after {
+  content: "";
+  position: absolute;
+  border-radius: inherit;
+}
+
+.spinner:before {
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(0deg, #ff00cc 0%, #333399 100%);
+  animation: spin8932 .5s infinite linear;
+}
+
+.spinner:after {
+  width: 85%;
+  height: 85%;
+  background-color: #212121;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes spin8932 {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loaded_hiding .preloader {
+  transition: 0.3s opacity;
+  opacity: 0;
+}
+
+.loaded .preloader {
+  display: none;
+}
+
+.content-wrapper.overlay {
+  pointer-events: none;
+  transition: 0.3s;
+
+}
+
+.site {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.button-telegram {
+  position: absolute;
+  left:0px;
+  border:1px;
+  position: relative;
+  top:50px;
+  height: 100px;
+  width : 100px;
+  border-radius: 90px;
+  color: black;
+  transition:1s;
+  background-color: #4CAF50;
+}
+.tg-txt {
+  font-family: monospace;
+  font-size: 15px;
+  color: #012b57;
+  position: relative;
+  top: -8%;
+  left: 10%;
+  visibility: hidden;
+  opacity:0;
+  transition: 1s;
+  animation: hide .3s forwards;
+}
+.tg-txt-chat-url {
+  font-family: monospace;
+  font-size: 9.5px;
+  position: relative;
+  top:-10%;
+  left: 14%;
+  visibility: hidden;
+  opacity:0;
+  transition: 1s;
+  animation: hide .3s forwards;
+}
+.tg-txt-rules {
+  font-family: monospace;
+  font-size: 15px;
+  position: relative;
+  top: -5%;
+  left: 10%;
+  visibility: hidden;
+  opacity:0;
+  transition: 1s;
+  animation: hide .3s forwards;
+}
+.tg-txt-rules-url {
+  font-family: monospace;
+  font-size: 15px;
+  position: relative;
+  top: 0%;
+  left: 10%;
+  visibility: hidden;
+  opacity:0;
+  transition: 1s;
+  animation: hide .3s forwards;
+}
+.button-telegram:focus,
+.button-telegram:hover{
+  transition: 1s;
+  width:300px;
+}
+
+.button-telegram:focus .tg-txt,
+.button-telegram:hover .tg-txt{
+  transition:1s animation 1s;
+  visibility: visible;
+  opacity: 0;
+  animation: show 1s forwards;
+}
+@keyframes show {
+  0% {opacity:0;}
+  30% {opacity: 0;}
+  100% {opacity:1;}
+}
+@keyframes hide {
+  0% {opacity:1;}
+  30% {opacity:1;}
+  100% {opacity:0;}
+}
+.telegram-png {
+  border:px solid #4b0082;
+  border-radius:90px;
+  width:80px;
+  height:80px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.avatar {
+  width: 200px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  top: 90px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  border: 7px double rgb(0, 0, 0); /* Параметры границы */
+  background: rgb(207, 12, 12); /* Цвет фона */
+}
+.css-1domyx7 {
+  position: absolute;
+  width: 50px;
+  font-size: 14px;
+  line-height: 37px;
+  left: 0px;
+  top: 10px;
+}
+.plus {
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.python {
+  position: absolute;
+  width: 50px;
+  font-size: 14px;
+  line-height: 37px;
+  left: 85px;
+  top: 10px;
+}
+
+.container {
+  margin-top: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#fff;
+}
+
+.container p {
+  text-align: center;
+  font-size: 2rem;
+  padding: 0.5rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.container p span.typed-text {
+  font-weight: normal;
+  color: #a7a411;
+}
+
+.container p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+
+.container p span.cursor.typing {
+  animation: none;
+}
+
+@keyframes blink {
+  0% {
+    background-color: #ccc;
+  }
+
+  49% {
+    background-color: #ccc;
+  }
+
+  50% {
+    background-color: transparent;
+  }
+
+  99% {
+    background-color: transparent;
+  }
+
+  100% {
+    background-color: #ccc;
+  }
+}
