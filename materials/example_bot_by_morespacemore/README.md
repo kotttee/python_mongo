@@ -1,4 +1,4 @@
-# example_bot
+# example_bot by <a href="https://github.com/morespacemore">morespacemore</a>
 
 Шаблон бота на Aiogram c базой данных Mongodb
 
